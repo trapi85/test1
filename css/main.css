@@ -1,0 +1,26 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.box1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/mountain1.svg");
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+}
+.box1 .form-inline {
+  text-align: center;
+}
+
+.container2 {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/box2bckg.svg");
+}
+
+.text {
+  position: absolute;
+}
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+}
